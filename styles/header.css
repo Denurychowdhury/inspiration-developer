@@ -1,0 +1,65 @@
+/*nav Bar style start*/
+.name-resume {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0px;
+}
+.name-resume h1 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+}
+.name-resume button {
+  padding: 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
+}
+/*nav Bar style End*/
+/*start the banner-section-container */
+.banner-section-container {
+  background-image: url(../assets/Hero-bg.png);
+}
+.future-developer-journey {
+  width: 1140px;
+  height: 652px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.future-developer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 998px;
+}
+.developer-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  margin: 32px 0px;
+}
+.developer-content p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 32px 0px;
+}
+.contact-button button {
+  padding: 21px 24px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+/* End of Banner section */
