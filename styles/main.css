@@ -1,7 +1,6 @@
 .why-development {
   width: 1140px;
   height: 1393px;
-  border: 2px solid red;
   margin: 70px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -151,4 +150,191 @@
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
+}
+/* end my inspiration */
+
+/* start my-target */
+.my-target {
+  width: 1140px;
+  height: 460px;
+  margin: 40px auto;
+  /* padding: 40px 0px; */
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.my-target .target-content {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  text-align: center;
+}
+.my-target .target-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.my-target .target-content p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+.my-target .skills-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+.my-target .html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.my-target .css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.my-target .js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.my-target .skills-card h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+.my-target .skills-card p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+.my-target .skills-card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+} /* end of my target setion */
+.next-target {
+  width: 1140px;
+  height: 866px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.next-target .next-target-content {
+  text-align: center;
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+}
+.next-target .next-target-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.next-target .next-target-content p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.next-target-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin: 67px 0px;
+}
+.target-card {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 10px;
+  padding: 40px;
+  display: flex;
+}
+.next-target-details .card-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+.next-target-details .card-content p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+/* end next target sectionff */
+/* need-support-container  start here */
+.need-support-container {
+  width: 1140px;
+  height: 313px;
+  margin: 30px auto;
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  /* padding: 64px; */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.support-container-details {
+  /* display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+  width: 1044px;
+  height: 185px;
+  color: white;
+  width: 730px;
+  margin: 0 auto;
+  gap: 25px;
+}
+.support-content h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.support-content p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.support-input-button {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.support-input-button input {
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.support-input-button button {
+  /* width: 120px;
+  height: 57px; */
+  padding: 17px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 19, 33);
 }
