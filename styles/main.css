@@ -28,7 +28,7 @@
   width: 946px;
   height: 336px;
   margin: 0 auto;
-  gap: 80px;
+  gap: 40px;
   display: flex;
   flex-direction: column;
 }
