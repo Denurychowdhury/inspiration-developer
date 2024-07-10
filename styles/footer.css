@@ -12,11 +12,11 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-.media-icons {
-  display: flex;
-  gap: 24px;
-}
 .footer-container h1 {
   font-size: 20px;
   font-weight: 600;
+}
+.media-icons {
+  display: flex;
+  gap: 24px;
 }

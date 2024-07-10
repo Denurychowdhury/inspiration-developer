@@ -9,6 +9,7 @@
   text-align: center;
   width: 852px;
   margin: 0 auto;
+  padding: 48px 0px;
 }
 .why-development-content h1 {
   color: rgb(13, 19, 33);
@@ -22,13 +23,12 @@
   font-weight: 400;
   margin: 24px 0px;
 }
-/* why development style end */
 /* start developers-goal */
 .developers-goal {
   width: 946px;
   height: 336px;
   margin: 0 auto;
-  gap: 80px;
+  /* gap: 80px; */
 }
 .developers-goal-card {
   display: flex;
@@ -43,7 +43,6 @@
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
-  margin-top: 50px;
   gap: 91px;
 }
 .developers-goal-card .card-content {
@@ -110,6 +109,8 @@
   font-weight: 600;
 }
 /* end developers goal section */
+/* why development style end */
+
 /* my-inspiration start */
 .my-inspiration {
   width: 1140px;
@@ -158,8 +159,6 @@
   width: 1140px;
   height: 460px;
   margin: 40px auto;
-  /* padding: 40px 0px; */
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,17 +189,17 @@
   gap: 24px;
   margin-top: 40px;
 }
-.my-target .html {
+.my-target .html-card {
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   padding: 40px;
 }
-.my-target .css {
+.my-target .css-card {
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
   padding: 40px;
 }
-.my-target .js {
+.my-target .js-card {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
   padding: 40px;
@@ -246,11 +245,7 @@
   font-weight: 400;
   margin-top: 30px;
 }
-.next-target .card-content a {
-  font-size: 16px;
-  font-weight: 700;
-  color: rgb(13, 19, 33);
-}
+
 .next-target-details {
   display: flex;
   justify-content: center;
@@ -278,6 +273,11 @@
   font-size: 16px;
   font-weight: 400;
   margin: 10px 0px;
+}
+.next-target .card-content a {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
 }
 /* end next target sectionff */
 /* need-support-container  start here */
@@ -311,7 +311,7 @@
   margin: 0 auto;
   gap: 25px;
 }
-.support-content h1 {
+.support-content .support-content h1 {
   color: white;
   font-size: 32px;
   font-weight: 700;
