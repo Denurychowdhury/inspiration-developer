@@ -85,5 +85,12 @@
     height: 100%;}
   .support-input-button{
     width: 100%;
-    align-items: flex-start;}
+    align-items: flex-start;
+    flex-direction: column;
+  }.support-input-button input{
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    width: 100%;}
 }
