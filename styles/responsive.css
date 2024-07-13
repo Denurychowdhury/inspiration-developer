@@ -48,7 +48,6 @@
    }
    .my-inspiration{
     width: 100%;
-    height: auto;
    
    }
   .my-inspiration .inpiration-content{
@@ -98,5 +97,7 @@
   }
   .footer-container {
     flex-direction: column;
-    width: 100%;}
+    width: 100%;
+    height: auto;
+  }
 }
