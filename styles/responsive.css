@@ -7,7 +7,7 @@
   }
   .why-development{
     width: 100%;
-    margin: 0;
+    margin-top: 80px;
     height: 1723px;
   }
   .why-development-content{
@@ -47,8 +47,9 @@
     width: 100%;
    }
    .my-inspiration{
-    width: 100%;width: 100%;
-    margin-top: 201px;
+    width: 100%;
+    height: auto;
+   
    }
   .my-inspiration .inpiration-content{
     width: 100%;
@@ -59,6 +60,7 @@
  .my-target{
     width: 100%;
     height: auto;
+    padding: 0px;
     }
    .my-target  .target-content{
     width: 100%;
