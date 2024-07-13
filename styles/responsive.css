@@ -90,6 +90,10 @@
   }.support-input-button input{
     width: 100%;
   }
+  footer{
+  padding: 0px;
+  margin-top: 0px;
+  }
   .footer-container {
     flex-direction: column;
     width: 100%;}
