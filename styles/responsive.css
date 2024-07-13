@@ -1,0 +1,89 @@
+@media screen and (max-width: 576px) {
+  .name-resume {
+    width: 100%;
+  }
+  .future-developer-journey{
+   width: 100%;
+  }
+  .why-development{
+    width: 100%;
+    margin: 0;
+    height: 1723px;
+  }
+  .why-development-content{
+    width: 100%;
+    padding: 0px;
+  }
+  .developers-goal{
+    width: 100%;
+    gap: 20px;
+    margin: 0px;
+    gap: 0px;
+  }
+  .developers-goal-card{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    height: fit-content;
+    flex-direction: column-reverse;
+  }
+   .developers-goal-card .card-content{
+    width: 100%;
+   }
+   .developers-goal-card .card-image{
+    width: 100%;
+   }
+   .developers-goal-card-two{
+    padding: 0px;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    flex-direction: column;
+   }
+   .developers-goal-card-two .card-image{
+    width: 100%;
+   }
+   .developers-goal-card-two .card-content{
+    width: 100%;
+   }
+   .my-inspiration{
+    width: 100%;width: 100%;
+    margin-top: 201px;
+   }
+  .my-inspiration .inpiration-content{
+    width: 100%;
+  }
+  .my-inspiration .inpiration-speech{
+    width: 100%;
+    height: 200px;}
+ .my-target{
+    width: 100%;
+    height: auto;
+    }
+   .my-target  .target-content{
+    width: 100%;
+    }
+.my-target .skills-card{
+  flex-direction: column;
+}
+.next-target{
+  width: 100%;
+   height: auto;
+}
+.next-target .next-target-content {
+    width: 100%;
+}
+.target-card{
+  flex-direction: column;
+}
+.need-support-container {
+  width: 100%;
+  text-align: left;
+}
+.support-container-details{
+  width: 100%;
+    height: 100%;}
+  .support-input-button{
+    width: 100%;
+    align-items: flex-start;}
+}

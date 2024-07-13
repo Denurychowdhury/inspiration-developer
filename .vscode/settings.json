@@ -1,0 +1,9 @@
+{
+  "css.format.enable": true,
+  "css.format.braceStyle": "collapse",
+  "html.format.indentHandlebars": false,
+  "eslint.format.enable": true,
+  "css.format.spaceAroundSelectorSeparator": false,
+  "scss.format.newlineBetweenRules": true,
+  "scss.format.newlineBetweenSelectors": true
+}
